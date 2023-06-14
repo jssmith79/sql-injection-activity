@@ -48,4 +48,6 @@ app.post('/login', function (req, res) {
 
 //Listener
 
-app.listen(3000);
+app.listen(3000, () => {
+	console.log("Server Running")
+}) ;
